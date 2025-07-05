@@ -1,0 +1,85 @@
+.siteNavigation{
+    
+   background-color:#d04141;
+   width: 10%;
+   height:120vh;
+   float: left;
+   display: inline;
+   margin: 0;
+   padding: 0;
+   
+ 
+  };
+  
+  .dashlistContainer {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    padding: 0 20px;
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+    font-size:14px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    background-color:#d04141;
+    
+  
+  }
+
+  
+
+  .dashlistItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    color:white;
+    margin-top: 0;
+    transition: background-color 1.0s;
+    
+    
+  }
+  .dashlistItem:hover{
+    background-color: #d13030;
+  }
+  
+  .dashImage {
+    margin-bottom: 5px; /* Adjust the spacing between the icon and the label */
+  }
+  
+  .dash-text {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+ 
+.dash-link{
+  text-decoration: none;
+}
+ 
+
+  .dashImage{
+    font-size: 20px;
+    width:50%;
+    left:50px;
+  }
+  .dash-text{
+    width:50%;
+  }
+  .dash-attribute{
+    flex-direction: column;
+    display:flex;
+    flex:1;
+    justify-content: center;
+    min-width:100%;
+    min-height:100%;
+    cursor:pointer;
+  }
+  .dash-attribute:hover{
+    background-color:brown;
+  }
+
+ 
